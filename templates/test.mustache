@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.2;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, tr, td {
+            border: 2px solid green;
+        }
+        .document {
+            text-align: center;
+            font-size: 26px;
+        }
+    </style>
+</head>
+<body>
+<div class="document">
+    <h1>{{header}}</h1>
+    <h3>This is a simple mustache template!</h3>
+    <ul>
+        {{#list}} <li> {{.}} </li> {{/list}}
+    </ul>
+    <ol>
+        {{#list}} <li> {{.}} </li> {{/list}}
+    </ol>
+    <table>
+        {{#table}}<tr><td>{{left}}</td><td>{{right}}</td></tr>{{/table}}
+    </table>
+</div>
+</body>
+</html>

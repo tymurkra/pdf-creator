@@ -1,0 +1,23 @@
+{
+  "header": "Hello!",
+  "list": [
+    "list 1",
+    "list 2",
+    "list 3",
+    "list 4"
+  ],
+  "table": [
+    {
+      "left": "left 1",
+      "right": "right 1"
+    },
+    {
+      "left": "left 2",
+      "right": "right 2"
+    },
+    {
+      "left": "left 3",
+      "right": "right 3"
+    }
+  ]
+}
